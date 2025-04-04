@@ -1,11 +1,11 @@
 # YoutubeAppAutomation
 
-[![Java 21](https://img.shields.io/badge/Python-3+-yellow.svg)](https://www.oracle.com/ie/java/technologies/downloads/#java21)
-[![Selenium](https://img.shields.io/badge/Selenium%20Webdriver-3.141.0-green.svg)](https://www.selenium.dev/documentation/webdriver/)
-[![Appium](https://img.shields.io/badge/behave-1.2.6-blue.svg)](https://appium.io/docs/en/latest/)
-[![JUnit 5](https://img.shields.io/badge/Requests-v2.28.1-purple.svg)](https://junit.org/junit5/)
-[![Maven Repository](https://img.shields.io/badge/ChromeDriver-102.0.5005.61-red.svg)](https://mvnrepository.com/)
-[![Android Studio](https://img.shields.io/badge/GeckoDriver-v0.31.0-orange.svg)](https://developer.android.com/studio)
+[![Java 21](https://img.shields.io/badge/Java-v21+-yellow.svg)](https://www.oracle.com/ie/java/technologies/downloads/#java21)
+[![Selenium](https://img.shields.io/badge/Selenium%20Webdriver-v4.28.0-green.svg)](https://www.selenium.dev/documentation/webdriver/)
+[![Appium](https://img.shields.io/badge/Appium-v9.4.0-blue.svg)](https://appium.io/docs/en/latest/)
+[![JUnit 5](https://img.shields.io/badge/JUnit%205-v5.10.2-purple.svg)](https://junit.org/junit5/)
+[![Maven Repository](https://img.shields.io/badge/Maven%20Repository-v3.9.9-red.svg)](https://mvnrepository.com/)
+[![Android Studio](https://img.shields.io/badge/Android%20Studio-v21.0.5-orange.svg)](https://developer.android.com/studio)
 
 # Requirements
 - Java 21
