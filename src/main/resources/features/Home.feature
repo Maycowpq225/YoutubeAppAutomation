@@ -1,6 +1,8 @@
 Feature: Home
 
-  @home
+  @Home @UITest
   Scenario: Validate elements on home screen
-    Given that I open the youtube App
-#    And that i have accepted the cookies
+    Given that the YouTube App was open
+    When I allow youtube to send notifications
+    And accept all the cookies
+    Then validate elements on the home screen
