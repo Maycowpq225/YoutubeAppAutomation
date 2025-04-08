@@ -6,3 +6,4 @@ Feature: Home
     When I allow youtube to send notifications
     And accept all the cookies
     Then validate elements on the home screen
+
