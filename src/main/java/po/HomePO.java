@@ -1,5 +1,7 @@
 package po;
 
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -66,6 +68,10 @@ public class HomePO extends BasePO {
 
     public void allowNotifications() {
         waitElementIsVisible(btnAllowNotifications).click();
+    }
+
+    public void clickOnSearchField() {
+        waitElementIsVisible(fieldSearchYouTube).click();
     }
 
     public void acceptAllTheCookies() {

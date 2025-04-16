@@ -14,6 +14,13 @@ public class HomeStep {
         homePO.youtubeAppIsOpen();
     }
 
+    @Given("that the YouTube App is open and ready to use")
+    public void youtubeAppIsOpenAndReadyUse() {
+        homePO.youtubeAppIsOpen();
+        homePO.allowNotifications();
+        homePO.acceptAllTheCookies();
+    }
+
     @When("accept all the cookies")
     public void acceptCookies() {
         homePO.acceptAllTheCookies();
@@ -22,6 +29,11 @@ public class HomeStep {
     @When("I allow youtube to send notifications")
     public void allowCookies() {
         homePO.allowNotifications();
+    }
+
+    @When("I click on the search field on homeScreen")
+    public void clickOnSearchField() {
+        homePO.clickOnSearchField();
     }
 
 
