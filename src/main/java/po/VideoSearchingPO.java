@@ -31,7 +31,7 @@ public class VideoSearchingPO extends BasePO {
         waitElementIsVisible(containerResults);
         scrollDirection("down", 2);
         scrollDirection("up", 2);
-        driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"com.google.android.youtube:id/text\").text(\"" + filter + "\")")).click();
+        driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.TextView\").text(\"" + filter + "\")")).click();
     }
 
     public boolean validateVideoResult(String keyWord) {
