@@ -80,7 +80,7 @@ public class HomePO extends BasePO {
 
     public void validateAllElementsHomeScreen() {
         List<WebElement> elements = List.of(fieldSearchYouTube, btnExploreMenu, btnMicrofone,
-                bannerTrySearchingToGetStarted.get(11), lblYouTube, imgLogoYoutube,
+                bannerTrySearchingToGetStarted.get(bannerTrySearchingToGetStarted.size()-1), lblYouTube, imgLogoYoutube,
                 btnNotifications, btnSearch, btnAccount,
                 menuHome, menuShorts, menuSubscriptions, menuLibrary);
 

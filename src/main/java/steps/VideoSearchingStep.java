@@ -21,7 +21,7 @@ public class VideoSearchingStep {
         videoSearchingPO.clickOnFilter(filter);
     }
 
-    @Then("the first result must contains the word {string} on the title")
+    @Then("the first result must contain the word {string} on the title")
     public void resultContains(String keyWord) {
         assertTrue(videoSearchingPO.validateVideoResult(keyWord));
     }

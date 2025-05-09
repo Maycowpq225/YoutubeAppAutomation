@@ -18,7 +18,7 @@ public class HomeStep {
     public void youtubeAppIsOpenAndReadyUse() {
         homePO.youtubeAppIsOpen();
         homePO.allowNotifications();
-        homePO.acceptAllTheCookies();
+        //homePO.acceptAllTheCookies();
     }
 
     @When("accept all the cookies")

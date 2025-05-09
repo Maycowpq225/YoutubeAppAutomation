@@ -6,7 +6,7 @@ Feature: VideoSearching
     Given that the YouTube App is open and ready to use
     When I click on the search field on homeScreen
     And search on the field for the word "Games"
-    Then the first result must contains the word "Games" on the title
+    Then the first result must contain the word "Games" on the title
 
   @VideoSearching @E2E @Test_003
   Scenario: Validate tab "Shorts" just have short videos
