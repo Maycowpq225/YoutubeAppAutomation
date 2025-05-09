@@ -1,6 +1,6 @@
 Feature: Home
 
-  @Home @UITest @Test_001
+  @Home @UITest @Test_001 @Regression
   Scenario: Validate elements on home screen
     Given that the YouTube App was open
     When I allow youtube to send notifications
